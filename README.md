@@ -1,47 +1,47 @@
 # Audio Transcription Project
 
-## Requisitos
+## Requirements
 
-Asegúrate de tener los siguientes paquetes instalados:
-
-```bash
-pip install whisper markdown2 pydub tqdm
-```
-
-Además, necesitas tener [FFmpeg](https://ffmpeg.org/download.html) instalado y disponible en tu PATH.
-
-## Uso
-
-### Instrucciones
-
-1. **Clona el repositorio:**
-
-```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
-```
-
-2. **Instala las dependencias:**
+Make sure you have the following packages installed:
 
 ```bash
 pip install whisper markdown2 pydub tqdm
 ```
 
-3. **Asegúrate de que FFmpeg esté instalado:**
+Additionally, you need to have [FFmpeg](https://ffmpeg.org/download.html) installed and available in your PATH.
 
-Verifica si FFmpeg está en el PATH ejecutando:
+## Usage
+
+### Instructions
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your_username/your_repository.git
+cd your_repository
+```
+
+2. **Install the dependencies:**
+
+```bash
+pip install whisper markdown2 pydub tqdm
+```
+
+3. **Ensure FFmpeg is installed:**
+
+Check if FFmpeg is in the PATH by running:
 
 ```bash
 ffmpeg -version
 ```
 
-Si FFmpeg no está instalado, sigue las instrucciones en [FFmpeg](https://ffmpeg.org/download.html) para instalarlo.
+If FFmpeg is not installed, follow the instructions on [FFmpeg](https://ffmpeg.org/download.html) to install it.
 
-4. **Coloca tu archivo de audio en la ruta especificada:**
+4. **Place your audio file in the specified path:**
 
-Por defecto, el archivo de audio debe estar en `./Audios/audio.wav`. Asegúrate de actualizar `audio_file_path` en el script si tu archivo de audio está en una ubicación diferente.
+By default, the audio file should be in `./Audios/audio.wav`. Make sure to update `audio_file_path` in the script if your audio file is in a different location.
 
-5. **Ejecuta el script:**
+5. **Run the script:**
 
 ```bash
 python transcribe.py
