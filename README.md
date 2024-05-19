@@ -1,7 +1,5 @@
 # Audio Transcription Project
 
-Este proyecto proporciona una herramienta para transcribir archivos de audio utilizando el modelo Whisper. El archivo de audio se divide en fragmentos manejables, se transcribe cada fragmento y se combina en un documento final en formato Markdown.
-
 ## Requisitos
 
 Asegúrate de tener los siguientes paquetes instalados:
